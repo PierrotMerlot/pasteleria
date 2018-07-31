@@ -3,27 +3,27 @@
 En una pastelería se cuenta con 3 cocineros especializados, 1 chef, 1 batidora, 1 amasadora y 3 recipientes con mezclas diferentes. El plano de la pastelería es el siguiente:
 
 ```text
-                       ______
-                      |      |
-                      |Caja 2|
-                      |______|
-                     __________
-                    |          |
-                    | Mezcla 3 | Mostrador 2
-                    |__________|
-                    
-                       [Chef]
- ___________________________________________________
-|                                                   |
-|Batidora      Mezcla 1      Amasadora      Mezcla 2| Mostrador 1
-|___________________________________________________|
-     \        /    \        /      \        /
-      \      /      \      /        \      /    
-    [Cocinero 1]   [Cocinero 2]   [Cocinero 3]
-                     ______
-                    |      |
-                    |Caja 1|
-                    |______|
+                                 ______
+                                |      |
+                                |Caja 2|
+                                |______|
+                               __________
+                              |          |
+                              | Mezcla 3 | Mostrador 2
+                              |__________|
+ 
+                                 [Chef]
+           ___________________________________________________
+          |                                                   |
+          |Batidora      Mezcla 1      Amasadora      Mezcla 2| Mostrador 1
+          |___________________________________________________|
+               \        /    \        /      \        /
+                \      /      \      /        \      /
+              [Cocinero 1]   [Cocinero 2]   [Cocinero 3]
+                               ______
+                              |      |
+                              |Caja 1|
+                              |______|
 ```
 
 Los cocineros cocinan con la mezcla y la herramienta adyacentes tomando siempre primero el elemento de la izquierda y luego el de la derecha. El chef, en cambio, usa una mezcla y una herramienta cualquiera del Mostrador 1 (tomadas en ese orden) junto con la Mezcla 3.
