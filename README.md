@@ -51,6 +51,10 @@ Ejecutada por el despachador para avisar al supervisor.
 
 Ejecutada por el chef para seleccionar mezcla y herramienta a usar. Retorna 1 o 2 para la mezcla y "Amasadora" o "Batidora" para la herramienta.
 
+* TomarHerramienta(string)
+
+Ejecutada por el cocinero o el chef para tomar una herramienta.
+
 * tomarMezcla(integer)
 
 Ejecutada por el cocinero o el chef para tomar una mezcla.
